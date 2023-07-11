@@ -1,0 +1,171 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Roboto:wght@400;700&display=swap");
+
+/* reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #eee;
+  font-family: "Poppins", sans-serif;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+hr {
+  border: 1px solid rgba(0, 0, 255, 0.794);
+}
+
+.container {
+  max-width: 1000px;
+  margin-inline: auto;
+  margin-top: 10px;
+}
+
+/* intro */
+
+.icon-text {
+  display: flex;
+  gap: 10px;
+}
+
+.name {
+  font-size: 2.5rem;
+  color: rgba(0, 0, 255, 0.794);
+}
+
+.intro {
+  display: flex;
+  justify-content: space-between;
+}
+
+i {
+  margin-bottom: 7px;
+  color: teal;
+}
+
+img {
+  width: 150px;
+}
+
+.role {
+  margin-bottom: 10px;
+  font-weight: normal;
+}
+
+/* address */
+
+.address {
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 35%;
+}
+
+.add {
+  padding-left: 275px;
+}
+
+/* skills */
+
+.skills {
+  margin-block: 10px;
+}
+
+.skill {
+  margin-block: 10px;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.skill p {
+  background-color: teal;
+  border: 1px solid black;
+  color: white;
+  border-radius: 5px;
+  padding: 7px;
+}
+
+/* personal project */
+
+.p-project h2,
+h4 {
+  font-weight: normal;
+}
+
+span {
+  text-decoration: underline;
+}
+
+.live{
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+/* education */
+
+.education {
+  margin-block: 10px;
+}
+
+.heading {
+  text-decoration: underline;
+}
+
+.pg h3 {
+  font-weight: normal;
+}
+
+.pg {
+  margin-block: 5px;
+}
+
+/* certifactes */
+
+.cr h3 {
+  font-weight: normal;
+}
+
+.cr {
+  margin-block: 5px;
+}
+
+/* interests */
+
+.interest {
+  margin-block: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.interest p {
+  font-weight: bold;
+  border: 1px solid black;
+  color: black;
+  border-radius: 5px;
+  padding: 7px;
+}
+
+@media screen and (max-width: 600px) {
+  .address{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .add{
+    padding-left: 0%;
+  }
+}
